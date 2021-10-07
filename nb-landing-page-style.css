@@ -1,0 +1,54 @@
+/* DivTable.com */
+.container{
+	background-color: #f0f0f0;
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTable h2{
+	font-size:20px;
+    text-align:left;
+    display:block;
+    margin:20px auto
+}
+.divTableRow {
+	display: table-row;
+	width: 50%;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	width: 50%;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.banner-medio{
+	width:100px;
+	margin: auto;
+	align: right;
+}
+
+.botao-comprar{
+	max-height: 50px;
+	margin: auto;
+	vertical-align: bottom;
+}
+
